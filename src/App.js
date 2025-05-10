@@ -11,7 +11,7 @@ function App() {
                 <nav className="text-4xl text-center mb-4 border-b py-4 border-gray-200 bg-gray-100">QR Code Generator
                 </nav>
                 <div className="flex flex-col p-8 justify-center w-full items-center ">
-                    <QRCode value={code}/>
+                    <QRCode value={code} fgColor="#ab22c4"/>
 
                     <div className="flex flex-col mt-4">
                         <label htmlFor="code" className="text-2xl mb-2">Enter your content:</label>
